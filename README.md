@@ -1,4 +1,4 @@
-# SIANA | Industrial Robotics Engineering Portfolio
+# SIANA | Industrial Robotics Engineering
 
 <p align="center">
   <strong>TGV Inspection Robot</strong><br>
@@ -8,8 +8,14 @@
 <p align="center">
   <img src="https://img.shields.io/badge/INDUSTRIAL-ROBOTICS-111827?style=for-the-badge" alt="Industrial Robotics">
   <img src="https://img.shields.io/badge/ENGINEERING-ELECTROMECHANICAL-374151?style=for-the-badge" alt="Electromechanical Engineering">
-  <img src="https://img.shields.io/badge/PORTFOLIO-EVIDENCE--BASED-4b5563?style=for-the-badge" alt="Evidence Based Portfolio">
+  <img src="https://img.shields.io/badge/TEAM-PROJECT-4b5563?style=for-the-badge" alt="Team Project">
 </p>
+
+<p align="center">
+  <strong>Team Contact:</strong> <a href="mailto:a.elhaoudar@edu.umi.ac.ma">a.elhaoudar@edu.umi.ac.ma</a>
+</p>
+
+---
 
 ## Project Image
 
@@ -24,22 +30,21 @@
 
 ---
 
-## 01 | PROJECT OVERVIEW
+# 01 | PROJECT OVERVIEW
 
 The **TGV Inspection Robot** is an industrial robotic platform developed for automated visual inspection of high-speed train undercarriages at SIANA maintenance facilities.
 
-The project combines mechanical design, electrical systems, embedded control, sensing, robotic manipulation, onboard computing, communication, operator interfaces, computer vision and artificial intelligence.
+Our project brings together multiple engineering disciplines, including mechanical design, electrical systems, embedded control, sensing, robotic manipulation, onboard computing, communication, operator interfaces, computer vision, and artificial intelligence.
 
-This repository presents the project as an **engineering portfolio**, with a particular focus on the physical robot, its electromechanical integration, control interfaces and the engineering evidence available from the project material.
+Through this repository, we document our multidisciplinary engineering work and present the architecture, technologies, interfaces, documentation, and technical evidence associated with the project.
 
-> **Important attribution principle**  
-> This is a personal portfolio derived from a multidisciplinary team project. Team-level work is not automatically presented as individual work. Where individual ownership cannot be verified, the repository keeps the contribution explicitly marked as team-level, supported, inferred or unverified.
+Our objective is to provide a clear technical view of the robot and to show how the different engineering disciplines interact to form one integrated industrial robotic system.
 
 ---
 
 # 02 | ENGINEERING SCOPE
 
-The project can be understood as a chain of interconnected engineering layers:
+We approached the project as an integrated industrial robotic system rather than as a collection of independent subsystems.
 
 ```text
                     TGV INSPECTION ROBOT
@@ -49,14 +54,13 @@ The project can be understood as a chain of interconnected engineering layers:
         v                   v                   v
    MECHANICAL          ELECTRICAL          ELECTRONICS
         |                   |                   |
-        |                   |                   |
         +-------------------+-------------------+
                             |
                             v
                     EMBEDDED CONTROL
                             |
                             v
-                  ONBOARD COMPUTING
+                   ONBOARD COMPUTING
                             |
              +--------------+--------------+
              |                             |
@@ -72,98 +76,109 @@ The project can be understood as a chain of interconnected engineering layers:
                   INSPECTION WORKFLOW
 ```
 
-### Main engineering domains
+### Main Engineering Domains
 
-| Domain | Main content |
+| Domain | Main Content |
 |---|---|
 | Mechanical | Chassis, wheels, robotic arm, fairing, CAD, drawings |
 | Electrical | Power architecture, wiring, protection, actuators |
 | Electronics | Controllers, sensors, communication interfaces |
 | Embedded | Robot control, telemetry, low-level interfaces |
 | Interface | Operator control, visualization, sensor feedback |
-| Software | Robot-side and station-side software context |
-| AI | Detection, inference and model-training workflow |
+| Software | Robot-side and station-side software |
+| AI | Detection, inference, and model-training workflow |
 | Maintenance | Preventive maintenance and service procedures |
-| Integration | Mechanical, electrical, electronic and software interfaces |
+| Integration | Mechanical, electrical, electronic, and software interfaces |
 
 ---
 
 # 03 | SYSTEM ARCHITECTURE
 
-The software platform described in the project is divided into two principal environments.
+Our project is organized around a combination of physical hardware, embedded systems, onboard computing, software, communication, and operator interfaces.
 
-### Robot-side system
+The software platform described in our project is divided into two principal environments.
 
-The robot-side software is responsible for functions such as:
+## Robot-Side System
 
-- autonomous navigation
-- camera operation
-- lighting control
-- onboard AI inference
-- wireless communication
-- battery and system-health monitoring
-- operator commands
-- synchronization of inspection data
+The robot-side software supports functions such as:
 
-### Station-side platform
+- Autonomous navigation
+- Camera operation
+- Lighting control
+- Onboard AI inference
+- Wireless communication
+- Battery and system-health monitoring
+- Operator commands
+- Synchronization of inspection data
 
-The control station provides:
+## Station-Side Platform
 
-- robot management
-- inspection-session management
-- telemetry visualization
-- video processing and storage
+The control station provides functions related to:
+
+- Robot management
+- Inspection-session management
+- Telemetry visualization
+- Video processing and storage
 - AI model management
-- defect records
-- inspection reports
-- authentication and access control
-- notifications and alerts
-- audit logging
+- Defect records
+- Inspection reports
+- Authentication and access control
+- Notifications and alerts
+- Audit logging
 
-### Communication layer
+## Communication Layer
 
-The project documentation identifies:
+Our project documentation identifies communication technologies including:
 
 ```text
 MQTT
-    |
-    +---- Command messaging
-    +---- Robot telemetry
+ |
+ +---- Command messaging
+ +---- Robot telemetry
 
 WebRTC
-    |
-    +---- Low-latency video streaming
+ |
+ +---- Low-latency video streaming
 
 Object Storage
-    |
-    +---- Inspection video
-    +---- High-resolution images
+ |
+ +---- Inspection video
+ +---- High-resolution images
 ```
 
-The software context includes Python/FastAPI, PostgreSQL, Redis, MinIO and Docker-based deployment.
+The software context includes technologies such as:
+
+- Python
+- FastAPI
+- PostgreSQL
+- Redis
+- MinIO
+- MQTT
+- WebRTC
+- Docker
 
 ---
 
 # 04 | MECHANICAL ENGINEERING
 
-The mechanical section contains the physical design evidence of the robot.
+Our mechanical work focuses on the physical structure and integration of the inspection robot.
 
-## Mechanical architecture
+## Mechanical Architecture
 
 The documented robot includes:
 
-- aluminium-profile chassis
-- driven wheels
-- caster wheels
-- removable protective fairing
-- robotic arm
-- camera support
-- mechanical mounting interfaces
-- maintenance-accessible components
+- Aluminium-profile chassis
+- Driven wheels
+- Caster wheels
+- Removable protective fairing
+- Robotic arm
+- Camera support
+- Mechanical mounting interfaces
+- Maintenance-accessible components
 
-## Mechanical engineering activities
+## Mechanical Engineering Activities
 
-The repository is structured to contain:
+Our mechanical documentation is organized around:
 
 ```text
 mechanical/
@@ -181,49 +196,48 @@ mechanical/
 |
 +-- schematics/
 |
-+-- calculations/
-|
 +-- maintenance/
 |
 +-- README.md
 ```
 
-### Mechanical evidence
+### Mechanical Evidence
 
-The mechanical section should contain the original project files whenever publication is permitted:
+Depending on publication and ownership constraints, the mechanical section can contain:
 
 - CAD assemblies
-- part models
-- definition drawings
-- assembly drawings
+- Part models
+- Definition drawings
+- Assembly drawings
 - STL files
-- mechanical calculations
-- mechanical research
-- maintenance documentation
+- Mechanical research
+- Maintenance documentation
 
-The README of this section should explain the engineering reasoning rather than simply listing files.
+These materials help us document the design choices, interfaces, physical architecture, and integration of the robot.
 
 ---
 
 # 05 | ELECTRICAL ENGINEERING
 
-The electrical section documents how energy, actuators, sensors and control electronics are interconnected.
+Our electrical engineering work documents how energy, actuators, sensors, controllers, and protection systems are interconnected.
 
-## Main topics
+## Main Topics
 
-- battery architecture
-- power distribution
+Our electrical documentation covers areas such as:
+
+- Battery architecture
+- Power distribution
 - DC/DC conversion
-- motor supply
-- controller supply
-- sensor supply
-- wiring
-- protection
-- emergency-stop architecture
-- actuator interfaces
-- communication wiring
+- Motor supply
+- Controller supply
+- Sensor supply
+- Wiring
+- Electrical protection
+- Emergency-stop architecture
+- Actuator interfaces
+- Communication wiring
 
-## Recommended structure
+## Electrical Structure
 
 ```text
 electrical/
@@ -244,24 +258,22 @@ electrical/
 |
 +-- bom/
 |
-+-- calculations/
-|
 +-- README.md
 ```
 
-### Configuration control
+### Configuration Control
 
-The available project material may contain different electrical configurations or design variants.
+Our project material may contain different electrical configurations or design variants.
 
-These variants should remain identifiable.
+We keep these variants identifiable rather than silently merging them into a single configuration.
 
-They should not be silently merged into a single configuration unless the project evidence clearly establishes which configuration is the final validated design.
+When the available project evidence does not establish a final validated configuration, we preserve the different documented variants and identify them accordingly.
 
 ---
 
 # 06 | ELECTRONICS & EMBEDDED ROBOTICS
 
-The robot uses several levels of embedded and computing hardware.
+Our robot combines sensors, controllers, embedded systems, and onboard computing.
 
 The project material identifies technologies including:
 
@@ -289,7 +301,7 @@ Robot Functions
    +---- Vision / AI
 ```
 
-The electronics documentation should contain:
+Our electronics documentation is organized around:
 
 ```text
 electronics/
@@ -303,21 +315,21 @@ electronics/
 +-- README.md
 ```
 
-The embedded section should distinguish between:
+The embedded section distinguishes between:
 
-- verified project source code
-- project architecture
-- representative portfolio code
-- reconstructed examples
-- personal integration work
+- Verified project source code
+- Project architecture
+- Representative code
+- Reconstructed examples
+- Integration work
 
-This prevents representative code from being presented as original team source code.
+This distinction helps us maintain a clear boundary between the complete team project and individual examples or supporting material.
 
 ---
 
 # 07 | ROBOT CONTROL INTERFACE
 
-A dedicated interface section documents the operator-facing control and monitoring layer.
+We developed and documented an interface layer for robot control and monitoring.
 
 ```text
 interface/
@@ -335,25 +347,25 @@ interface/
 +-- README.md
 ```
 
-## Interface functions
+## Interface Functions
 
 The supplied Processing interface includes functionality related to:
 
-- five-joint robot control
-- target-angle commands
-- current-angle feedback
+- Five-joint robot control
+- Target-angle commands
+- Current-angle feedback
 - HOME positioning
-- arm visualization
-- temperature monitoring
-- humidity monitoring
-- distance measurements
-- sensor-history graphs
-- serial communication
-- connection status
+- Robotic-arm visualization
+- Temperature monitoring
+- Humidity monitoring
+- Distance measurements
+- Sensor-history graphs
+- Serial communication
+- Connection-status monitoring
 
-### Joint model
+### Joint Model
 
-| Joint | Documented range |
+| Joint | Documented Range |
 |---|---:|
 | Base | -180° to +180° |
 | Shoulder | 0° to 180° |
@@ -365,15 +377,15 @@ The interface protocol uses serial communication at **115200 baud**.
 
 `RobotArmInterface.pde` is based on the supplied Processing interface source.
 
-`RobotControlerInterface.pde` is a companion portfolio integration layer and should not be interpreted as automatically verified original team source code.
+`RobotControlerInterface.pde` is included as a companion interface/integration component and should be interpreted according to the available project attribution evidence.
 
 ---
 
 # 08 | SOFTWARE & AI CONTEXT
 
-The project software platform supports the inspection workflow from robot operation to data analysis.
+Our software platform supports the inspection workflow from robot operation to data management and analysis.
 
-## Robot-side software
+## Robot-Side Software
 
 ```text
 Navigation
@@ -389,7 +401,7 @@ Communication
 Inspection Data
 ```
 
-## Station-side software
+## Station-Side Software
 
 ```text
 Robot Management
@@ -405,28 +417,28 @@ AI Training
 Reports / Analytics
 ```
 
-### Technologies documented in the project
+### Technologies Documented in the Project
 
 | Category | Technologies |
 |---|---|
 | Backend | Python, FastAPI |
 | Database | PostgreSQL |
 | Cache | Redis |
-| Object storage | MinIO |
+| Object Storage | MinIO |
 | Messaging | MQTT |
 | Video | WebRTC |
 | Deployment | Docker |
 | AI | Machine-learning / YOLO-based workflow |
 
-The software section is primarily maintained as **project context** unless an individual contribution is directly supported by evidence.
+This software context shows how our digital systems support the physical robot and the overall inspection workflow.
 
 ---
 
 # 09 | MAINTENANCE ENGINEERING
 
-Maintenance is treated as part of the robot engineering lifecycle.
+We treat maintenance as an important part of the robot engineering lifecycle.
 
-The repository can contain:
+Our maintenance documentation can be organized as:
 
 ```text
 maintenance/
@@ -441,34 +453,36 @@ maintenance/
 
 Typical documented maintenance subjects include:
 
-- chassis and fairing inspection
-- wheel-support inspection
-- wheel play
-- caster inspection
-- cleaning and corrosion checks
-- emergency-stop checks
-- movement-warning checks
-- robotic-arm fastening
-- sealing inspection
-- periodic general inspection
+- Chassis and fairing inspection
+- Wheel-support inspection
+- Wheel-play inspection
+- Caster inspection
+- Cleaning and corrosion checks
+- Emergency-stop checks
+- Movement-warning checks
+- Robotic-arm fastening
+- Sealing inspection
+- Periodic general inspection
 
-The maintenance section connects the physical design to long-term industrial operation.
+The maintenance section connects our physical design with long-term industrial operation, serviceability, and preventive maintenance.
 
 ---
 
 # 10 | ENGINEERING DOCUMENTATION
 
-The documentation layer should explain the engineering story without duplicating every source file.
+Our documentation layer explains the engineering work without unnecessarily duplicating every source file.
 
-### Academic project image
+## Academic Project Image
 
-The main project image used in this README is stored in:
+The main project image used in this README is stored at:
 
 ```text
 docs/academic/SIANA_Industrial_Robot.PNG
 ```
 
-It is referenced with a repository-relative path so that GitHub renders the image directly from the repository.
+The image is referenced using a repository-relative path so that GitHub can render it directly from the repository.
+
+## Documentation Structure
 
 ```text
 documentation/
@@ -485,7 +499,7 @@ documentation/
 +-- contribution.md
 ```
 
-The principle is:
+Our documentation follows the principle:
 
 ```text
 DOCUMENTATION
@@ -495,25 +509,27 @@ DOCUMENTATION
      v
 ENGINEERING FILES
      |
-     +---- prove / support the engineering
+     +---- support the engineering
 ```
 
 ---
 
 # 11 | ENGINEERING EVIDENCE & ATTRIBUTION
 
-This portfolio follows a strict attribution model.
+Because this is a multidisciplinary team project, we distinguish between different levels of attribution.
 
 | Status | Meaning |
 |---|---|
 | Explicitly documented | The project material directly identifies the contribution |
 | Project-supported | The contribution is strongly supported by technical evidence |
-| Team-level | It belongs to the project team rather than being individually attributed |
-| Inferred | It is an engineering interpretation derived from available evidence |
+| Team-level | The work belongs to the project team |
+| Inferred | The interpretation is derived from available evidence |
 | Other contributor | The source identifies another contributor |
 | Uncertain | The available material is insufficient to verify ownership |
 
-### Source priority
+## Source Priority
+
+When documenting our project, we follow this priority:
 
 ```text
 1. Direct project files
@@ -522,29 +538,29 @@ This portfolio follows a strict attribution model.
 4. Team GitHub repository
 5. Project images / videos
 6. CV for professional context
-7. Personal explanations
+7. Team explanations and clarifications
 8. General engineering knowledge
 ```
 
-This hierarchy is used to avoid turning assumptions into factual project claims.
+This hierarchy helps us avoid presenting assumptions as confirmed project facts.
 
 ---
 
 # 12 | PROJECT VARIANTS
 
-The project material may contain different technical variants during the development process.
+Our project material may contain different technical variants created during the development process.
 
 Examples can include:
 
-- alternative controller architectures
-- alternative battery configurations
-- alternative motor selections
-- alternative sensor arrangements
-- different software architecture stages
+- Alternative controller architectures
+- Alternative battery configurations
+- Alternative motor selections
+- Alternative sensor arrangements
+- Different software architecture stages
 
-A variant is therefore kept as a **documented design state** until the project evidence establishes the final validated configuration.
+We keep these variants identifiable as documented development states until the available project evidence establishes the final validated configuration.
 
-This is important in an engineering portfolio because development history is evidence of engineering decision-making.
+This allows us to preserve the development history and better understand how the engineering architecture evolved.
 
 ---
 
@@ -557,7 +573,6 @@ SIANA-Industrial-Robotics-Engineering/
 |   +-- cad/
 |   +-- drawings/
 |   +-- schematics/
-|   +-- calculations/
 |   +-- maintenance/
 |
 +-- electrical/
@@ -585,8 +600,6 @@ SIANA-Industrial-Robotics-Engineering/
 |
 +-- integration/
 |
-+-- calculations/
-|
 +-- maintenance/
 |
 +-- documentation/
@@ -604,11 +617,13 @@ SIANA-Industrial-Robotics-Engineering/
 +-- README.md
 ```
 
+There is intentionally **no separate `calculations/` section** in this repository structure.
+
 ---
 
-# 14 | HOW TO REVIEW THIS PORTFOLIO
+# 14 | HOW TO REVIEW THIS PROJECT
 
-A technical reviewer can follow this path:
+A technical reviewer can follow the project through the following path:
 
 ```text
                     README
@@ -630,25 +645,25 @@ A technical reviewer can follow this path:
               SYSTEM INTEGRATION
                       |
                       v
-               MAINTENANCE
+                MAINTENANCE
 ```
 
-For detailed verification, each engineering explanation should lead to the corresponding:
+For detailed verification, each engineering explanation should lead to the corresponding project evidence, such as:
 
 - CAD file
-- drawing
-- schematic
-- calculation
-- source code
-- test result
-- maintenance document
-- photograph or video
+- Technical drawing
+- Electrical schematic
+- Wiring documentation
+- Source code
+- Test result
+- Maintenance document
+- Photograph or video
 
 ---
 
 # 15 | ENGINEERING APPROACH
 
-The project demonstrates a multidisciplinary engineering workflow:
+We follow a multidisciplinary engineering workflow:
 
 ```text
 Requirements
@@ -675,58 +690,71 @@ Testing & Validation
 Maintenance
 ```
 
-The portfolio is intended to demonstrate the ability to understand and document these interfaces as one industrial robotic system.
+Our objective is to demonstrate how the different engineering disciplines interact to create a functional industrial robotic inspection system.
+
+We consider the robot as one complete engineering system in which mechanical, electrical, electronic, embedded, software, interface, and maintenance aspects must work together.
 
 ---
 
-# 16 | PERSONAL PORTFOLIO POSITIONING
+# 16 | TEAM PROJECT POSITIONING
 
-This repository is designed to communicate an engineering profile focused on:
+This repository represents our multidisciplinary work on an industrial robotics project.
 
-**Industrial Robotics**
+Our work covers and connects:
 
-with supporting capabilities in:
-
-- mechanical design
+- Mechanical design
 - CAD and technical drawings
-- electrical architecture
-- electronics
-- embedded systems
-- robotic-arm integration
-- sensor integration
-- operator interfaces
-- system integration
-- maintenance engineering
-- technical documentation
+- Electrical architecture
+- Electronics
+- Embedded systems
+- Robotic-arm integration
+- Sensor integration
+- Operator interfaces
+- System integration
+- Maintenance engineering
+- Technical documentation
+- Software and AI context
 
-The emphasis is on understanding how the physical, electrical and digital parts of a robot operate together.
+The emphasis of this repository is on the **complete engineering system** and on how the physical, electrical, and digital components of the robot operate together.
+
+## Contact
+
+For project-related information:
+
+**Email:** [a.elhaoudar@edu.umi.ac.ma](mailto:a.elhaoudar@edu.umi.ac.ma)
 
 ---
 
 # 17 | COPYRIGHT, OWNERSHIP & PUBLICATION
 
-This repository is a **personal engineering portfolio derived from a team project**.
+This repository documents a **team engineering project**.
 
-It should not imply ownership of every project artifact.
+It should not imply individual ownership of every project artifact.
 
-Before public publication:
+Before public publication, we should verify:
 
-- verify whether project documents may be redistributed
-- verify teammate-owned source code
-- verify institutional documentation
-- verify CAD and manufacturer documents
-- remove confidential information
-- preserve original attribution where required
+- Whether project documents may be redistributed
+- Teammate-owned source code
+- Institutional documentation
+- CAD and manufacturer documents
+- Confidential information
+- Required original attribution
 
-When authorship is uncertain, the repository should explicitly say so.
+Where authorship is uncertain, we preserve that uncertainty rather than assigning unsupported ownership.
+
+The purpose of this repository is to provide an organized technical representation of our engineering project while respecting the ownership and attribution of the different contributors and project sources.
 
 ---
 
 <p align="center">
-  <strong>SIANA — Industrial Robotics Engineering Portfolio</strong><br>
+  <strong>SIANA — Industrial Robotics Engineering</strong><br>
   TGV Inspection Robot
 </p>
 
 <p align="center">
   Mechanical · Electrical · Electronics · Embedded · Interface · Integration · Maintenance
+</p>
+
+<p align="center">
+  <strong>Team Contact:</strong> <a href="mailto:a.elhaoudar@edu.umi.ac.ma">a.elhaoudar@edu.umi.ac.ma</a>
 </p>
