@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🤖 SIANA Industrial Robotics Engineering
+# SIANA Industrial Robotics Engineering
 
 ### Academic Engineering Repository — SAFE TRACK · SIANA · InnovAM'26
 
@@ -35,28 +35,28 @@
 
 ---
 
-# 📑 Table of Contents
+# Table of Contents
 
-- [🚀 Project Overview](#-project-overview)
-- [🎯 Project Objectives](#-project-objectives)
-- [📸 Robot Gallery](#-robot-gallery)
-- [🏗️ System Architecture](#️-system-architecture)
-- [⚡ Electrical & Embedded Engineering](#-electrical--embedded-engineering)
-- [🦾 Robotic Arm & Control Interface](#-robotic-arm--control-interface)
-- [⚙️ Mechanical Engineering](#️-mechanical-engineering)
-- [💻 SIANA Station Software](#-siana-station-software)
-- [🧠 Computer Vision & AI](#-computer-vision--ai)
-- [🔗 Hardware / Software Integration](#-hardware--software-integration)
-- [👤 Individual Contribution](#-individual-contribution)
-- [📂 Repository Structure](#-repository-structure)
-- [🧪 Engineering Traceability](#-engineering-traceability)
-- [🔒 Source-Control Policy](#-source-control-policy)
-- [📊 Project Status](#-project-status)
-- [📚 Documentation](#-documentation)
+- [Project Overview](#-project-overview)
+- [Project Objectives](#-project-objectives)
+- [Robot Gallery](#-robot-gallery)
+- [System Architecture](#️-system-architecture)
+- [Electrical & Embedded Engineering](#-electrical--embedded-engineering)
+- [Robotic Arm & Control Interface](#-robotic-arm--control-interface)
+- [Mechanical Engineering](#️-mechanical-engineering)
+- [SIANA Station Software](#-siana-station-software)
+- [Computer Vision & AI](#-computer-vision--ai)
+- [Hardware / Software Integration](#-hardware--software-integration)
+- [Individual Contribution](#-individual-contribution)
+- [Repository Structure](#-repository-structure)
+- [Engineering Traceability](#-engineering-traceability)
+- [Source-Control Policy](#-source-control-policy)
+- [Project Status](#-project-status)
+- [Documentation](#-documentation)
 
 ---
 
-# 🚀 Project Overview
+# Project Overview
 
 **SIANA** is an industrial robotic inspection platform developed within the
 **SAFE TRACK** project.
@@ -83,30 +83,30 @@ embedded, software, AI and system-integration dimensions of the platform.
 
 ---
 
-# 🎯 Project Objectives
+# Project Objectives
 
 The SIANA platform is designed around several complementary engineering
 objectives.
 
 | Objective | Function |
 |---|---|
-| 🚆 Railway inspection | Inspect underbody railway components |
-| 📷 Visual acquisition | Capture and transmit inspection imagery |
-| 📡 Environmental sensing | Detect obstacles and monitor the environment |
-| 🦾 Robotic manipulation | Orient sensors and perform robotic-arm movements |
-| ⚡ Embedded control | Control motors, actuators and sensors |
-| 🧠 AI inspection | Support defect/anomaly detection |
-| 🖥️ Operator supervision | Provide remote monitoring and control |
-| 📊 Inspection management | Organize inspection information and results |
+| Railway inspection | Inspect underbody railway components |
+| Visual acquisition | Capture and transmit inspection imagery |
+| Environmental sensing | Detect obstacles and monitor the environment |
+| Robotic manipulation | Orient sensors and perform robotic-arm movements |
+| Embedded control | Control motors, actuators and sensors |
+| AI inspection | Support defect/anomaly detection |
+| Operator supervision | Provide remote monitoring and control |
+| Inspection management | Organize inspection information and results |
 
 ---
 
-# 📸 Robot Gallery
+# Robot Gallery
 
 The repository can contain a dedicated image gallery for the physical
 robot, laboratory tests, electronics, robotic arm and demonstrations.
 
-## 🤖 Main Robot
+## Main Robot
 
 <div align="center">
 
@@ -122,7 +122,7 @@ robot, laboratory tests, electronics, robotic arm and demonstrations.
 
 ---
 
-## 🦾 Robotic Arm
+## Robotic Arm
 
 Add additional photographs here:
 
