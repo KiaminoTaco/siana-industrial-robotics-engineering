@@ -8,6 +8,5 @@ Authoritative design files are intentionally reserved for manual insertion:
 
 ```text
 hardware/mechanical/cad/
-hardware/mechanical/drawings/
-hardware/mechanical/3d_prints/
+hardware/mechanical/drawings/ 
 ```
