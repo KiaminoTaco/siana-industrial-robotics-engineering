@@ -19,7 +19,7 @@
 <!-- HERO IMAGE                                                 -->
 <!-- ========================================================= -->
 
-<img src="media/robot/Industriel_robot.PNG"
+<img src="docs/academic/Industriel_robot.PNG"
      alt="SIANA Industrial Inspection Robot"
      width="850">
 
