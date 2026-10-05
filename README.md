@@ -11,6 +11,17 @@
   <img src="https://img.shields.io/badge/PORTFOLIO-EVIDENCE--BASED-4b5563?style=for-the-badge" alt="Evidence Based Portfolio">
 </p>
 
+## Project Image
+
+<p align="center">
+  <img src="docs/academic/SIANA_Industrial_Robot.PNG" alt="SIANA Industrial Robot" width="850">
+</p>
+
+<p align="center">
+  <strong>SIANA Industrial Inspection Robot</strong><br>
+  Main project platform and engineering integration target
+</p>
+
 ---
 
 ## 01 | PROJECT OVERVIEW
@@ -448,6 +459,16 @@ The maintenance section connects the physical design to long-term industrial ope
 # 10 | ENGINEERING DOCUMENTATION
 
 The documentation layer should explain the engineering story without duplicating every source file.
+
+### Academic project image
+
+The main project image used in this README is stored in:
+
+```text
+docs/academic/SIANA_Industrial_Robot.PNG
+```
+
+It is referenced with a repository-relative path so that GitHub renders the image directly from the repository.
 
 ```text
 documentation/
