@@ -110,7 +110,7 @@ robot, laboratory tests, electronics, robotic arm and demonstrations.
 
 <div align="center">
 
-<img src="media/robot/Industriel_robot.PNG"
+<img src="docs/academic/SIANA_Industrial_Robot.PNG"
      alt="SIANA Industrial Inspection Robot"
      width="800">
 
