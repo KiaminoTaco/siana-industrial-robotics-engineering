@@ -20,6 +20,3 @@ The dedicated Robot Control Interface was developed collaboratively with the tea
 
 The contribution represented here is the hardware-oriented side of that collaboration: integration of motors, sensors and embedded control with the interface software.
 
-## 5. Mechanical and AI work
-
-Mechanical and AI work is retained as project-level material. Where supporting contributions were made, they should be described as integration/research support rather than as sole authorship.
